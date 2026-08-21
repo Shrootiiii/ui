@@ -1,6 +1,6 @@
 # ui
 
-A [shadcn](https://ui.shadcn.com)-compatible component registry — 82 React + Tailwind components and variants, installable straight into any project via the shadcn CLI.
+A [shadcn](https://ui.shadcn.com)-compatible component registry — 86 React + Tailwind components and variants, installable straight into any project via the shadcn CLI.
 
 Every component here is generated from and mirrors [shrutishankarnarayanan.com/components](https://www.shrutishankarnarayanan.com/components/), where you can preview each one live before installing it.
 
