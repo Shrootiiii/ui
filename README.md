@@ -1,6 +1,6 @@
 # ui
 
-A [shadcn](https://ui.shadcn.com)-compatible component registry — 95 React + Tailwind components and variants, installable straight into any project via the shadcn CLI.
+A [shadcn](https://ui.shadcn.com)-compatible component registry — 100 React + Tailwind components and variants, installable straight into any project via the shadcn CLI.
 
 Every component here is generated from and mirrors [shrutishankarnarayanan.com/components](https://www.shrutishankarnarayanan.com/components/), where you can preview each one live before installing it.
 
@@ -34,12 +34,13 @@ Works with `bunx --bun`, `pnpm dlx`, or `yarn dlx` in place of `npx` too.
 
 | | |
 |---|---|
-| **Buttons & inputs** | `primary-button` `ghost-button` `toggle-switch` `text-field` `icon-button` `select` `checkbox` `slider` `document-upload` `hover-border-gradient` `notification-button` `moving-border-button` |
-| **Cards & layout** | `content-card` `stat-card` `badge` `pricing-card` `avatar-group` `wave-card` `glow-card` `accordion` `testimonial-card` `swipe-cards` `link-preview-card` |
+| **Buttons & inputs** | `primary-button` `ghost-button` `toggle-switch` `text-field` `icon-button` `select` `checkbox` `slider` `intent-aware-button` `document-upload` `hover-border-gradient` `notification-button` `moving-border-button` |
+| **Cards & layout** | `content-card` `stat-card` `badge` `pricing-card` `avatar` `avatar-group` `wave-card` `glow-card` `hover-reveal-card` `accordion` `testimonial-card` `pull-quote` `swipe-cards` `testimonial-carousel` `mini-chart` `link-preview-card` `intelligent-empty-state` |
 | **Navigation** | `pill-tabs` `breadcrumbs` `command-palette` `pagination` `stepper` `icon-stepper` `comet-stepper` `dropdown-menu` `dock-nav` `rail-nav` `sidebar-nav` |
-| **Motion & interaction** | `reveal-on-scroll` `marquee` `spotlight-card` `magnetic-button` `tooltip` `infinite-moving-cards` `text-generate-effect` |
-| **Feedback & status** | `orbit-loader` `pulse-loader` `thinking-loader` `empty-state` `success-state` `error-state` `toast` `skeleton-loader` |
-| **AI interface** | `share-card` `share-sheet` `chat-input-bar` `chain-of-thought` `reasoning` `confirmation` `sources` `suggestion` `tool` `artifact` `code-block` `commit` `file-tree` `sandbox` `test-results` `terminal` `audio-player` `audio-scrubber` `persona` `transcription` `voice-selector` `attachments` `settings-panel` `app-widget` |
+| **Motion & interaction** | `reveal-on-scroll` `logo-wall` `marquee` `parallax` `card-stack-scroll` `spotlight-card` `magnetic-button` `tooltip` `infinite-moving-cards` `text-generate-effect` |
+| **Feedback & status** | `history-rail` `orbit-loader` `pulse-loader` `thinking-loader` `empty-state` `success-state` `error-state` `attention-gradient` `recovery-diff` `scope-preview` `consent-ledger` `cost-preview` `silent-failure-surface` `presence-indicator` `toast` `skeleton-loader` `undoable-action` `waiting-state` `permission-negotiator` |
+| **AI interface** | `share-card` `share-sheet` `chat-input-bar` `chain-of-thought` `reasoning` `confirmation` `confidence-slider` `decision-timeline` `interruptible-automation` `sources` `suggestion` `tool` `artifact` `code-block` `commit` `file-tree` `sandbox` `test-results` `terminal` `audio-player` `audio-scrubber` `persona` `transcription` `voice-selector` `attachments` `settings-panel` `app-widget` |
+| **Templates** | `ai-landing-template` `saas-landing-template` `premium-saas-homepage-template` |
 
 Browse every one of these live, with a preview and copyable source, at [shrutishankarnarayanan.com/components](https://www.shrutishankarnarayanan.com/components/).
 
