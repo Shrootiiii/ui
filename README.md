@@ -59,7 +59,7 @@ Each file under `r/` conforms to shadcn's [`registry-item.json`](https://ui.shad
 
 ## Where this content comes from
 
-This repo isn't hand-maintained — it's generated output. The actual source of every component lives in the [portfolio site's repo](https://www.shrutishankarnarayanan.com), where each one is written once as a real, rendered React component and then built into the JSON files here via `next build`'s static export. When a component changes on the site, this repo gets re-synced from that build output and re-pushed; it doesn't get edited directly.
+This repo isn't hand-maintained — it's generated output. The actual source of every component lives in the [portfolio site's repo](https://www.shrutishankarnarayanan.com), where each one is written once as a real, rendered React component and then built into the JSON files here via `next build`'s static export. A `sync-registry` job in that repo's deploy workflow pushes the fresh build output (`r/*.json` and `registry.json`) here automatically on every deploy to `main`; it doesn't get edited directly.
 
 ## License
 
