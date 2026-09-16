@@ -1,6 +1,8 @@
 # ui
 
-A [shadcn](https://ui.shadcn.com)-compatible component registry — 181 React + Tailwind components and variants, installable straight into any project via the shadcn CLI.
+A [shadcn](https://ui.shadcn.com)-compatible component registry: the free tier of a 181-component React + Tailwind library, installable straight into any project via the shadcn CLI.
+
+The seven components here are free and MIT-licensed. The other 174 (blocks, charts, AI interface pieces and full templates) are in [ui-shrushank Pro](https://www.shrutishankarnarayanan.com/components/), a single purchase that unlocks a private registry with the same install flow.
 
 Every component here is generated from and mirrors [shrutishankarnarayanan.com/components](https://www.shrutishankarnarayanan.com/components/), where you can preview each one live before installing it.
 
@@ -32,17 +34,19 @@ Works with `bunx --bun`, `pnpm dlx`, or `yarn dlx` in place of `npx` too.
 
 ## What's in here
 
-| | |
+| Component | What it is |
 |---|---|
-| **Buttons & inputs** | `primary-button` `ghost-button` `toggle-switch` `text-field` `icon-button` `select` `checkbox` `slider` `intent-aware-button` `document-upload` `hover-border-gradient` `notification-button` `moving-border-button` |
-| **Cards & layout** | `content-card` `stat-card` `badge` `pricing-card` `avatar` `avatar-group` `wave-card` `glow-card` `hover-reveal-card` `accordion` `testimonial-card` `pull-quote` `swipe-cards` `testimonial-carousel` `mini-chart` `link-preview-card` `intelligent-empty-state` |
-| **Navigation** | `pill-tabs` `breadcrumbs` `command-palette` `pagination` `stepper` `icon-stepper` `comet-stepper` `dropdown-menu` `dock-nav` `rail-nav` `sidebar-nav` |
-| **Motion & interaction** | `reveal-on-scroll` `logo-wall` `marquee` `parallax` `card-stack-scroll` `spotlight-card` `magnetic-button` `tooltip` `infinite-moving-cards` `text-generate-effect` |
-| **Feedback & status** | `history-rail` `orbit-loader` `pulse-loader` `thinking-loader` `empty-state` `success-state` `error-state` `attention-gradient` `recovery-diff` `scope-preview` `consent-ledger` `cost-preview` `silent-failure-surface` `presence-indicator` `toast` `skeleton-loader` `undoable-action` `waiting-state` `permission-negotiator` |
-| **AI interface** | `share-card` `share-sheet` `chat-input-bar` `chain-of-thought` `reasoning` `confirmation` `confidence-slider` `decision-timeline` `interruptible-automation` `sources` `suggestion` `tool` `artifact` `code-block` `commit` `file-tree` `sandbox` `test-results` `terminal` `audio-player` `audio-scrubber` `persona` `transcription` `voice-selector` `attachments` `settings-panel` `app-widget` |
-| **Templates** | `ai-landing-template` `saas-landing-template` `premium-saas-homepage-template` |
+| `primary-button` | The default call to action, solid fill with hover and focus states. |
+| `ghost-button` | A lower-emphasis outline button for secondary actions. |
+| `badge` | A small status pill with neutral, success, and warning tones. |
+| `text-field` | A labeled text input with clear focus and placeholder states. |
+| `toggle-switch` | An accessible on/off switch built on a native button. |
+| `breadcrumbs` | A simple breadcrumb trail with an aria-current page marker. |
+| `commit-graph` | A contribution heatmap paged by two-week sprints, drillable to the day. |
 
-Browse every one of these live, with a preview and copyable source, at [shrutishankarnarayanan.com/components](https://www.shrutishankarnarayanan.com/components/).
+`all` installs the seven in one go.
+
+Browse these and the full library live, with a preview and (for free items) copyable source, at [shrutishankarnarayanan.com/components](https://www.shrutishankarnarayanan.com/components/).
 
 ## Repo structure
 
@@ -52,7 +56,7 @@ r/                # One JSON file per component (shadcn registry-item schema)
   primary-button.json
   ghost-button.json
   ...
-  all.json        # Convenience item that installs every component at once
+  all.json        # Convenience item that installs every free component at once
 ```
 
 Each file under `r/` conforms to shadcn's [`registry-item.json`](https://ui.shadcn.com/docs/registry/registry-item-json) schema: a name, title, description, dependencies, and the component's source embedded as a `files` entry. `registry.json` conforms to the [`registry.json`](https://ui.shadcn.com/docs/registry/registry-json) schema and lists every item in one place.
@@ -63,4 +67,4 @@ This repo isn't hand-maintained — it's generated output. The actual source of 
 
 ## License
 
-MIT — use any of these components in your own projects, no attribution required.
+MIT for everything in this repo: use these components in your own projects, no attribution required. Pro components are licensed separately under the [terms](https://www.shrutishankarnarayanan.com/legal/terms/) shown at purchase.
